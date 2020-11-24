@@ -1,0 +1,57 @@
+::-webkit-scrollbar {
+  width: 0.3em;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #999999;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #384553;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #8C8F93;
+}
+::-moz-selection { 
+	color: #252734;
+	background:white;
+}
+::selection { 
+	color: #252734;
+	background: white;
+}
+
+.App {
+  background-image: linear-gradient(rgba(13, 13, 13, .7), rgba(13, 13, 13, .55)), url('./images/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  /* background: #202331; */
+  min-height: 100vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Karla', sans-serif;
+  box-sizing: border-box;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+.container{
+  background-color: rgba(26, 26, 26, 0.3);
+  backdrop-filter: blur(4px);
+  width: 50vw;
+  min-height: 400px;
+  color: white;
+  padding: 20px;
+}

@@ -1,0 +1,13 @@
+.tecnologiasContainer{
+    /* padding: 10px; */
+}
+.tecnologiasList{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+.tecnologiasList li{
+    display: flex;
+    padding: 5px;
+}

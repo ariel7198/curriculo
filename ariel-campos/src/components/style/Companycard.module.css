@@ -1,0 +1,36 @@
+.companyCard{
+    display: flex;
+    /* border: 1px solid #252734; */
+    /* background: linear-gradient(rgba(0,0,0,0,.9), rgba(0,0,0,0,.8)); */
+    width: 500px;
+    /* padding: 15px; */
+    align-items: center;
+    margin: 10px;
+    /* background: red; */
+}
+.companyCard h3{
+    margin: 0 !important;
+}
+.companyAvatarContainer{
+    align-self: flex-start;
+}
+.companyLogo{
+    height: 80px;
+    width: 80px;
+    background: white;
+    padding: 5px;
+    /* border: 1px solid white; */
+    border-radius: 50%;
+}
+.jobDescription{
+    text-align: left;
+    padding: 15px;
+}
+.description{
+    font-weight: 100;
+}
+.description ul{
+    margin: 0;
+    padding-left: 15px;
+    line-height: 1.5rem;
+}

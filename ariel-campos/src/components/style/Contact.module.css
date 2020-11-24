@@ -1,0 +1,14 @@
+.contatoContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.contatoButtons ul{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.contatoButtons li{
+    margin: 5px;
+}
