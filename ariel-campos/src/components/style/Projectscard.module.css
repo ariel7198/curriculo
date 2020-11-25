@@ -1,0 +1,50 @@
+.projectCard{
+    display: flex;
+    align-items: center;
+    width: 90%;
+}
+.projectDescription{
+    text-align: left;
+    padding: 20px;
+    width: 100%;
+    align-self: flex-start;
+}
+.projectThumb{
+    width: 200px;
+    height: auto;
+}
+.technologiesContainer{
+    display: flex;
+}
+.buttonsContainer{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 5px;
+}
+@media (max-width: 1514px){
+    .projectCard{
+        width: 100%;
+        flex-direction: column;
+        margin: 0;
+    }
+    .projectThumb{
+        width: 70%;
+        height: auto;
+    }
+    .technologiesContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .projectDescription{
+        text-align: center;
+        padding: 20px;
+        width: 100%;
+        align-self: flex-start;
+    }
+    .buttonsContainer{
+        align-items: center;
+        justify-content: center;
+    }
+}

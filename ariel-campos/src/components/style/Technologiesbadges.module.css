@@ -1,0 +1,14 @@
+.technologyBadge{
+    /* background: red; */
+    border: 1px solid white;
+    border-radius: .25rem;
+    padding: .25em .4em;
+    margin: 5px;
+    font-size: 0.8rem;
+    transition: all 0.1s ease-in;
+}
+/* .technologyBadge:hover{
+    background: white;
+    color: #252734;
+    transition: all 0.1s ease-in;
+} */

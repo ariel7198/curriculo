@@ -9,6 +9,12 @@
     box-shadow: 2px 8px 20px rgba(0,0,0,0.7);
     /* border-radius: 15px 15px 15px 15px; */
 }
+@media (max-width: 1215px){
+    .profilecard{
+        height: 200px;
+        transition: height .4s;
+    }
+}
 .title h4{
     font-weight: 100;
 }

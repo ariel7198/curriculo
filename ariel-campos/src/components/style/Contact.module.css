@@ -4,6 +4,9 @@
     justify-content: center;
     align-content: center;
 }
+.contatoContainer ul{
+    padding: 0;
+}
 .contatoButtons ul{
     display: flex;
     justify-content: center;

@@ -1,18 +1,18 @@
+* {
+  box-sizing: border-box;
+}
 ::-webkit-scrollbar {
   width: 0.3em;
 }
 
-/* Track */
 ::-webkit-scrollbar-track {
   background: #999999;
 }
 
-/* Handle */
 ::-webkit-scrollbar-thumb {
   background: #384553;
 }
 
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #8C8F93;
 }
@@ -23,6 +23,22 @@
 ::selection { 
 	color: #252734;
 	background: white;
+}
+button{
+  background: transparent;
+  color: white;
+  padding: 5px 10px;
+  border: 1px solid white;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.buttonHover{
+  transition: all 0.1s ease-in !important;
+}
+.buttonHover:hover{
+  background: white;
+  color: #252734;
+  transition: all 0.1s ease-in !important;
 }
 
 .App {
@@ -54,4 +70,15 @@ a{
   min-height: 400px;
   color: white;
   padding: 20px;
+}
+
+/*breakpoint mobile */
+@media (max-width: 1215px){
+  .App{
+    flex-direction: column;
+    padding: 25px;
+  }
+  .container{
+    width: 90vw;
+  }
 }

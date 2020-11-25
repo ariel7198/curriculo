@@ -16,9 +16,9 @@ const Profilecard = () => {
             </div>
             <ul className={style.socialIcons}> 
             <IconContext.Provider value={{ className: 'social-icons', size: '1.6em' }}>
-                <li> <a href="https://github.com/ariel7198"><AiFillGithub  /> </a> </li>
-                <li> <a href="https://www.linkedin.com/in/ariel-campos-37970a141/"> <AiFillLinkedin /> </a> </li>
-                <li> <a href="https://www.behance.net/ariel7198"> <FaBehance /> </a> </li>
+                <li> <a href="https://github.com/ariel7198" target="_blank"><AiFillGithub  /> </a> </li>
+                <li> <a href="https://www.linkedin.com/in/ariel-campos-37970a141/" target="_blank"> <AiFillLinkedin /> </a> </li>
+                <li> <a href="https://www.behance.net/ariel7198" target="_blank"> <FaBehance /> </a> </li>
             </IconContext.Provider>
             </ul>
 

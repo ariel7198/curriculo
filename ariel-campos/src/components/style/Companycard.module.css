@@ -1,12 +1,16 @@
 .companyCard{
     display: flex;
-    /* border: 1px solid #252734; */
-    /* background: linear-gradient(rgba(0,0,0,0,.9), rgba(0,0,0,0,.8)); */
-    width: 500px;
-    /* padding: 15px; */
+    width: 700px;
     align-items: center;
     margin: 10px;
-    /* background: red; */
+}
+@media (max-width: 1514px){
+    .companyCard{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        margin: 10px;
+    }
 }
 .companyCard h3{
     margin: 0 !important;
@@ -19,7 +23,6 @@
     width: 80px;
     background: white;
     padding: 5px;
-    /* border: 1px solid white; */
     border-radius: 50%;
 }
 .jobDescription{

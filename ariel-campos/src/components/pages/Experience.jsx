@@ -16,7 +16,7 @@ const Experience = () => {
                     imagem={digimaxLogo}
                     cargo='Desenvolvedor Web'
                     descricao={
-                        <ul> 
+                        <ul>
                             <li> Desenvolvimento de sites e landing pages; </li>
                             <li> Desenvolvimento de novos widgets para a plataforma duda mobile; </li>
                             <li> Manutenção de websites Wordpress; </li>
@@ -30,7 +30,7 @@ const Experience = () => {
                     imagem={compumateLogo}
                     cargo='Suporte / Homologação'
                     descricao={
-                        <ul> 
+                        <ul>
                             <h3> Homologação </h3>
                             <li> Homologação de alterações no sistema; </li>
                             <li> Teste de novas funções; </li>
@@ -41,14 +41,13 @@ const Experience = () => {
                         </ul>
                     }
                 />
-
                 <Companycard
                     empresa='FbNet'
                     periodo='2018 - 2019'
                     imagem={fbnetLogo}
                     cargo='Auxiliar supervisor de redes'
                     descricao={
-                        <ul> 
+                        <ul>
                             <li> Atendimento a clientes; </li>
                             <li> Configuração de redes e servidores; </li>
                             <li> Configuração de roteadores openwrt e dispositivos mikrotik. </li>
