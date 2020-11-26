@@ -47,14 +47,12 @@ button{
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
-  /* background: #202331; */
   min-height: 100vh;
   text-align: center;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   font-family: 'Karla', sans-serif;
-  box-sizing: border-box;
 }
 li{
   list-style: none;

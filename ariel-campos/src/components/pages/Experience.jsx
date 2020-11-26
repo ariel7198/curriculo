@@ -1,6 +1,9 @@
 import React from 'react'
+
 import style from '../style/Experience.module.css'
+
 import Companycard from '../Companycard'
+
 import compumateLogo from '../../images/compumate.png'
 import fbnetLogo from '../../images/fbnet.png'
 import digimaxLogo from '../../images/digimax.png'

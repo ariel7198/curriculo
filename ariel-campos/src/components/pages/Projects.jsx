@@ -1,7 +1,9 @@
 import React from 'react'
+
 import Projectcard from '../Projectcard'
+
 import autoexpressImage from '../../images/projects/autoexpress.jpg'
-import autoexpressImage2 from '../../images/projects/autoexpress2.jpg'
+// import autoexpressImage2 from '../../images/projects/autoexpress2.jpg'
 import recipesImage from '../../images/projects/recipes.jpg'
 import portfolioImage from '../../images/projects/portfolio.jpg'
 

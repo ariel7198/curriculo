@@ -1,7 +1,10 @@
 import React from 'react'
+
 import style from '../style/Technologies.module.css'
+
 import Technologycard from '../Technologycard'
 
+import { IconContext } from 'react-icons';
 import { AiFillHtml5 } from 'react-icons/ai'
 import { SiJavascript } from 'react-icons/si'
 import { FaSass } from 'react-icons/fa'
@@ -11,7 +14,7 @@ import { GrMysql } from 'react-icons/gr'
 import { FaReact } from 'react-icons/fa'
 import { DiGulp } from 'react-icons/di'
 
-import { IconContext } from 'react-icons';
+
 
 
 const Technologies = () => {

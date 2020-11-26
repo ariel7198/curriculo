@@ -1,4 +1,5 @@
 import React from 'react'
+
 import style from './style/Technologiescards.module.css'
 
 const Technologycard = (props) => {

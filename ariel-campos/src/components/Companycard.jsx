@@ -1,5 +1,5 @@
 import React from 'react'
-import { SiYelp } from 'react-icons/si'
+
 import style from './style/Companycard.module.css'
 
 const Companycard = ( props ) =>{

@@ -1,5 +1,7 @@
 import React from 'react'
+
 import style from '../style/About.module.css'
+
 import ifsulLogo from '../../images/if.png'
 
 import Companycard from '../Companycard'

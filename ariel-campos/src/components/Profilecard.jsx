@@ -1,4 +1,5 @@
 import React from 'react'
+
 import style from './style/Profilecard.module.css'
 
 import { IconContext } from 'react-icons';
@@ -16,9 +17,9 @@ const Profilecard = () => {
             </div>
             <ul className={style.socialIcons}> 
             <IconContext.Provider value={{ className: 'social-icons', size: '1.6em' }}>
-                <li> <a href="https://github.com/ariel7198" target="_blank"><AiFillGithub  /> </a> </li>
-                <li> <a href="https://www.linkedin.com/in/ariel-campos-37970a141/" target="_blank"> <AiFillLinkedin /> </a> </li>
-                <li> <a href="https://www.behance.net/ariel7198" target="_blank"> <FaBehance /> </a> </li>
+                <li> <a href="https://github.com/ariel7198" target="_blank" rel='noreferrer'><AiFillGithub  /> </a> </li>
+                <li> <a href="https://www.linkedin.com/in/ariel-campos-37970a141/" target="_blank" rel='noreferrer'> <AiFillLinkedin /> </a> </li>
+                <li> <a href="https://www.behance.net/ariel7198" target="_blank" rel='noreferrer'> <FaBehance /> </a> </li>
             </IconContext.Provider>
             </ul>
 
