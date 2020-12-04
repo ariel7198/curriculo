@@ -36,8 +36,8 @@ const Projects = () => {
             <Projectcard
                 img={portfolioImage}
                 title='Website Porfolio'
-                link='http://autoexpresslogistica.com/'
-                code='https://github.com/ariel7198/recipes'
+                link='https://portfolio-drab-ten.vercel.app/'
+                code='https://github.com/ariel7198/portfolio'
                 technologies={['html', 'css', 'js', 'react', 'git']}
                 description='Portfolio pessoal com projetos, experiência e contato, criado em React'
             />
