@@ -43,7 +43,7 @@ const Projects = () => {
             />
             <p> Veja mais projetos criados na plataforma duda mobile</p>
             <IconContext.Provider value={{ className: 'social-icons', size: '1em' }}>
-                <button className='buttonHover'> <a href="https://www.behance.net/ariel7198" target="_blank"> <FaBehance /> Ver no behance  </a> </button>
+                <button className='buttonHover'> <a href="https://www.behance.net/ariel7198" target="_blank" rel="noreferrer"> <FaBehance /> Ver no behance  </a> </button>
             </IconContext.Provider>
         </div>
     )

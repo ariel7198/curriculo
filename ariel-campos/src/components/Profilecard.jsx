@@ -1,13 +1,15 @@
 import React from 'react'
 
 import style from './style/Profilecard.module.css'
+import cv from '../files/ariel-campos.pdf'
 
 import { IconContext } from 'react-icons';
 import { AiFillGithub } from 'react-icons/ai'
 import { AiFillLinkedin } from 'react-icons/ai'
 import { FaBehance } from 'react-icons/fa'
 import { BsDownload } from 'react-icons/bs'
-import { DiRequirejs } from 'react-icons/di';
+
+
 
 const Profilecard = () => {
     return (
@@ -25,7 +27,7 @@ const Profilecard = () => {
                 </IconContext.Provider>
             </ul>
             <div className={style.download}>
-                <a href={require("../files/ariel-campos.pdf")} download="ariel-campos-cv"> <button className='buttonHover'>  <BsDownload /> Baixar Currículo </button> </a>
+                <a href={cv} target='_blank' rel="noopener noreferrer" download="ariel-campos-cv"> <button className='buttonHover'>  <BsDownload /> Baixar Currículo </button> </a>
             </div>
 
         </div >
