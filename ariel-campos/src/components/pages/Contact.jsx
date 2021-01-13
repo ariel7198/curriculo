@@ -10,7 +10,8 @@ import { AiFillLinkedin } from 'react-icons/ai'
 const Contact = () => {
     return (
         <div className={style.contatoContainer}>
-            <h2> Vamos conversar </h2>
+            <h2> Vamos conversar? </h2>
+            <p> Fique a vontade para entrar em contato </p>
             <ul>
                 <li> ariel.7198@hotmail.com </li>
                 <li> (44) 98857-6746 </li>
