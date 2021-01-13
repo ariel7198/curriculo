@@ -9,7 +9,7 @@ import { BsFileCode } from 'react-icons/bs'
 import Badge from './Technologiesbadges'
 
 const Projectcard = (props) => {
-    console.log(props.technologies)
+    // console.log(props.technologies)
     return (
         <div className={style.projectCard}>
             <div className={style.projectImageContainer}>

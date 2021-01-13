@@ -6,6 +6,8 @@ import { IconContext } from 'react-icons';
 import { AiFillGithub } from 'react-icons/ai'
 import { AiFillLinkedin } from 'react-icons/ai'
 import { FaBehance } from 'react-icons/fa'
+import { BsDownload } from 'react-icons/bs'
+import { DiRequirejs } from 'react-icons/di';
 
 const Profilecard = () => {
     return (
@@ -13,17 +15,20 @@ const Profilecard = () => {
             <div className={style.title}>
                 <h2> Ariel Campos </h2>
                 <p> Desenvolvedor Web </p>
-                <small> Maringá - PR </small>
+                <small> Maringá - PR </small> <br />
             </div>
-            <ul className={style.socialIcons}> 
-            <IconContext.Provider value={{ className: 'social-icons', size: '1.6em' }}>
-                <li> <a href="https://github.com/ariel7198" target="_blank" rel='noreferrer'><AiFillGithub  /> </a> </li>
-                <li> <a href="https://www.linkedin.com/in/ariel-campos-37970a141/" target="_blank" rel='noreferrer'> <AiFillLinkedin /> </a> </li>
-                <li> <a href="https://www.behance.net/ariel7198" target="_blank" rel='noreferrer'> <FaBehance /> </a> </li>
-            </IconContext.Provider>
+            <ul className={style.socialIcons}>
+                <IconContext.Provider value={{ className: 'social-icons', size: '1.6em' }}>
+                    <li> <a href="https://github.com/ariel7198" target="_blank" rel='noreferrer'><AiFillGithub /> </a> </li>
+                    <li> <a href="https://www.linkedin.com/in/ariel-campos-37970a141/" target="_blank" rel='noreferrer'> <AiFillLinkedin /> </a> </li>
+                    <li> <a href="https://www.behance.net/ariel7198" target="_blank" rel='noreferrer'> <FaBehance /> </a> </li>
+                </IconContext.Provider>
             </ul>
+            <div className={style.download}>
+                <a href={require("../files/ariel-campos.pdf")} download="ariel-campos-cv"> <button className='buttonHover'>  <BsDownload /> Baixar Currículo </button> </a>
+            </div>
 
-        </div>
+        </div >
     )
 }
 
