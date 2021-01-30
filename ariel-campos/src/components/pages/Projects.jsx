@@ -3,7 +3,7 @@ import React from 'react'
 import Projectcard from '../Projectcard'
 
 import autoexpressImage from '../../images/projects/autoexpress.jpg'
-// import autoexpressImage2 from '../../images/projects/autoexpress2.jpg'
+import autoexpressReact from '../../images/projects/autoexpressReact.jpg'
 import recipesImage from '../../images/projects/recipes.jpg'
 import portfolioImage from '../../images/projects/portfolio.jpg'
 
@@ -20,7 +20,6 @@ const Projects = () => {
             <Projectcard
                 img={autoexpressImage}
                 title='AutoExpress Logística'
-                link='http://autoexpresslogistica.com/'
                 code='https://github.com/ariel7198/autoexpress'
                 technologies={['html', 'css', 'js', 'bootstrap', 'php', 'git']}
                 description='Website de uma empresa virtual de logística, criado para praticar os conceitos de bootstrap'
@@ -40,6 +39,14 @@ const Projects = () => {
                 code='https://github.com/ariel7198/portfolio'
                 technologies={['html', 'css', 'js', 'react', 'git']}
                 description='Portfolio pessoal com projetos, experiência e contato, criado em React'
+            />
+            <Projectcard
+                img={autoexpressReact}
+                title='AutoExpress Logística'
+                link='http://autoexpresslogistica.com/'
+                code='https://github.com/ariel7198/autoexpress-react'
+                technologies={['html', 'css', 'js', 'react', 'git']}
+                description='Re-design do website com novo layout e utilizando React'
             />
             <p> Veja mais projetos criados na plataforma duda mobile</p>
             <IconContext.Provider value={{ className: 'social-icons', size: '1em' }}>
