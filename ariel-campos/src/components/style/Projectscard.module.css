@@ -48,3 +48,6 @@
         justify-content: center;
     }
 }
+.buttonHoverDisabled{
+    opacity: 0.5!important;
+}

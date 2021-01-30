@@ -8,7 +8,21 @@ import { BsFileCode } from 'react-icons/bs'
 
 import Badge from './Technologiesbadges'
 
+
+
 const Projectcard = (props) => {
+
+    function checkLive(element){
+        if (props.link){
+            return (
+                <a href={props.link} target="_blank" rel="noreferrer">  <button className='buttonHover'>  <BsPlayFill /> Live </button> </a>
+            )
+        } else {
+            return (
+                <button className={style.buttonHoverDisabled}>  <BsPlayFill /> Live </button>
+            )
+        }
+    }
     // console.log(props.technologies)
     return (
         <div className={style.projectCard}>
@@ -28,7 +42,7 @@ const Projectcard = (props) => {
                 </div>
                 <div className={style.buttonsContainer}>
                     <IconContext.Provider value={{ className: 'social-icons', size: '1em' }}>
-                        <a href={props.link} target="_blank" rel="noreferrer">  <button className='buttonHover'>  <BsPlayFill /> Live </button> </a>
+                        {checkLive()}
                         <a href={props.code} target="_blank" rel="noreferrer">  <button className='buttonHover'>  <BsFileCode /> Code   </button> </a>
                     </IconContext.Provider>
                 </div>
