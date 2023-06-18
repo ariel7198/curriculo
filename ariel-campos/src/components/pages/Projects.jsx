@@ -6,6 +6,7 @@ import autoexpressImage from '../../images/projects/autoexpress.jpg'
 import autoexpressReact from '../../images/projects/autoexpressReact.jpg'
 import recipesImage from '../../images/projects/recipes.jpg'
 import portfolioImage from '../../images/projects/portfolio.jpg'
+import vulcanoImage from '../../images/projects/vulcano.png'
 
 
 import { IconContext } from 'react-icons'
@@ -41,12 +42,12 @@ const Projects = () => {
                 description='Portfolio pessoal com projetos, experiência e contato, criado em React'
             />
             <Projectcard
-                img={autoexpressReact}
-                title='AutoExpress Logística'
-                link='http://autoexpresslogistica.com/'
-                code='https://github.com/ariel7198/autoexpress-react'
-                technologies={['html', 'css', 'js', 'react', 'git']}
-                description='Re-design do website com novo layout e utilizando React'
+                img={vulcanoImage}
+                title='Vulcano'
+                link='https://vulcano.nacao.digital/'
+                code=''
+                technologies={['html', 'css', 'js', 'git','vue']}
+                description='Plataforma criada em Vue.js para monitoramento de tags de Google Analytics'
             />
             <p> Veja mais projetos criados na plataforma duda mobile</p>
             <IconContext.Provider value={{ className: 'social-icons', size: '1em' }}>
