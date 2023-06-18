@@ -10,7 +10,6 @@ import { FaBehance } from 'react-icons/fa'
 import { BsDownload } from 'react-icons/bs'
 
 
-
 const Profilecard = () => {
     return (
         <div className={style.profilecard}>
