@@ -11,7 +11,7 @@
 }
 @media (max-width: 1215px){
     .profilecard{
-        height: 250px;
+        height: 290px;
         transition: height .4s;
     }
 }
