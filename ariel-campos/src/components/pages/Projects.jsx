@@ -7,6 +7,7 @@ import autoexpressReact from '../../images/projects/autoexpressReact.jpg'
 import recipesImage from '../../images/projects/recipes.jpg'
 import portfolioImage from '../../images/projects/portfolio.jpg'
 import vulcanoImage from '../../images/projects/vulcano.png'
+import fcamaraimage from '../../images/projects/fcamara-min.png'
 
 
 import { IconContext } from 'react-icons'
@@ -18,13 +19,13 @@ const Projects = () => {
     return (
         <div className={style.projectsContainer}>
             <h2> Projetos </h2>
-            <Projectcard
+            {/* <Projectcard
                 img={autoexpressImage}
                 title='AutoExpress Logística'
                 code='https://github.com/ariel7198/autoexpress'
                 technologies={['html', 'css', 'js', 'bootstrap', 'php', 'git']}
                 description='Website de uma empresa virtual de logística, criado para praticar os conceitos de bootstrap'
-            />
+            /> */}
             <Projectcard
                 img={recipesImage}
                 title='Receitas'
@@ -49,7 +50,15 @@ const Projects = () => {
                 technologies={['html', 'css', 'js', 'git','vue']}
                 description='Plataforma criada em Vue.js para monitoramento de tags de Google Analytics'
             />
-            <p> Veja mais projetos criados na plataforma duda mobile</p>
+            <Projectcard
+                img={fcamaraimage}
+                title='FCamara'
+                link='https://fcamara.com/'
+                code=''
+                technologies={['wordpress', 'css', 'js']}
+                description='Website institucional criado em WordPress'
+            />
+            <p> Veja mais projetos criados na plataforma duda mobile e WordPress</p>
             <IconContext.Provider value={{ className: 'social-icons', size: '1em' }}>
                 <button className='buttonHover'> <a href="https://www.behance.net/ariel7198" target="_blank" rel="noreferrer"> <FaBehance /> Ver no behance  </a> </button>
             </IconContext.Provider>
