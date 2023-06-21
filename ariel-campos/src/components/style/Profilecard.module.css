@@ -28,3 +28,8 @@
 .socialIcons li{
     margin: 5px;
 }
+.download{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
