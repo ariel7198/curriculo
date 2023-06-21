@@ -10,13 +10,9 @@ const About = () => {
     return (
         <div className={style.sobreContainer}>
             <h2> Sobre mim </h2>
-            <p> Olá, me chamo Ariel. Descobri minha paixão pela criação durante meu ensino médio, no início do meu curso técnico em informática, desde lá
-                comecei a estudar e me dedicar a área de desenvolvimento web. </p>
-            <p> Me aventurei por diversas tecnologias para entender melhor como esse mundo funcionava, e cada vez mais me dedico
-                    aos estudos e ao aperfeiçoamento na área. </p>
-            <p> Iniciei profissionalmente na área de desenvolvimento web em 2019, e desde lá consegui, juntamente com minha equipe, melhorar 
-                a qualidade dos projetos entregues e contribuir para os resultados da empresa. </p>
-            <p> Estou sempre aberto para novas oportunidades e desafios. </p>
+            <p> Me chamo Ariel. Sou apaixonado por criação e inovação.  </p>
+            <p>Minha jornada no desenvolvimento web tem sido impulsionada pelo amor por criar soluções digitais envolventes e funcionais.  </p>
+            <p>Com habilidades abrangentes e adaptabilidade. Estou pronto para enfrentar desafios e entregar resultados excepcionais </p>
             <div className={style.formacao}>
                 <h3> Formação </h3>
                 <Companycard
