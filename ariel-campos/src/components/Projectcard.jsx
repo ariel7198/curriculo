@@ -23,6 +23,17 @@ const Projectcard = (props) => {
             )
         }
     }
+    function checkCode(){
+        if (props.code){
+            return(
+                <a href={props.code} target="_blank" rel="noreferrer">  <button className='buttonHover'>  <BsFileCode /> Code   </button> </a> 
+            )
+        } else {
+            return(
+                <button className={style.buttonHoverDisabled}>  <BsFileCode /> Code </button>
+            )
+        }
+    }
     // console.log(props.technologies)
     return (
         <div className={style.projectCard}>
@@ -43,7 +54,8 @@ const Projectcard = (props) => {
                 <div className={style.buttonsContainer}>
                     <IconContext.Provider value={{ className: 'social-icons', size: '1em' }}>
                         {checkLive()}
-                        <a href={props.code} target="_blank" rel="noreferrer">  <button className='buttonHover'>  <BsFileCode /> Code   </button> </a>
+                        {checkCode()}
+                        {/* <a href={props.code} target="_blank" rel="noreferrer">  <button className='buttonHover'>  <BsFileCode /> Code   </button> </a> */}
                     </IconContext.Provider>
                 </div>
             </div>
