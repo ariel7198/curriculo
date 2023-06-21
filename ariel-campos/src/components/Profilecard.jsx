@@ -2,6 +2,7 @@ import React from 'react'
 
 import style from './style/Profilecard.module.css'
 import cv from '../files/ariel-campos.pdf'
+import cven from '../files/CV - EN-min.pdf'
 
 import { IconContext } from 'react-icons';
 import { AiFillGithub } from 'react-icons/ai'
@@ -27,6 +28,7 @@ const Profilecard = () => {
             </ul>
             <div className={style.download}>
                 <a href={cv} target='_blank' rel="noopener noreferrer" download="ariel-campos-cv"> <button className='buttonHover'>  <BsDownload /> Baixar Currículo </button> </a>
+                <a href={cven} target='_blank' rel="noopener noreferrer" download="ariel-campos-cv"> <button className='buttonHover'>  <BsDownload /> English CV </button> </a>
             </div>
 
         </div >
