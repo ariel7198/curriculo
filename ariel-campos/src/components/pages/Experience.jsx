@@ -35,8 +35,8 @@ const Experience = () => {
                     cargo='Desenvolvedor Web'
                     descricao={
                         <ul>
-                            <li> Desenvolvimento de sites e landing pages; </li>
-                            <li> Desenvolvimento de novos widgets para a plataforma duda mobile; </li>
+                            <li> Responsável pelo desenvolvimento de Websites e landing pages responsivas em diferentes plataformas e tecnologias; </li>
+                            <li> Responsável pela prototipação de telas de Websites e aplicativos; </li>
                             <li> Manutenção de websites Wordpress; </li>
                             <li> Manutenção de lojas virtuais. </li>
                         </ul>
