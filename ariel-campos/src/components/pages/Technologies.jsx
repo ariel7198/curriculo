@@ -13,6 +13,9 @@ import { AiFillGithub } from 'react-icons/ai'
 import { GrMysql } from 'react-icons/gr'
 import { FaReact } from 'react-icons/fa'
 import { DiGulp } from 'react-icons/di'
+import { FaVuejs} from 'react-icons/fa'
+
+
 
 
 
@@ -42,6 +45,10 @@ const Technologies = () => {
                     <Technologycard
                         title='React'
                         icon={<FaReact />}
+                    />
+                    <Technologycard
+                        title='Vue.js'
+                        icon={<FaVuejs />}
                     />
                     <Technologycard
                         title='Gulp'
