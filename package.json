@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/ariel7198/curriculo/issues"
   },
-  "homepage": "https://github.com/ariel7198/curriculo#readme"
+  "homepage": "https://github.com/ariel7198/curriculo#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.2",
+    "@types/testing-library__jest-dom": "^5.14.6"
+  }
 }
