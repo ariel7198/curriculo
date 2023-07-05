@@ -21,7 +21,7 @@ const Experience = () => {
                     cargo='Desenvolvedor Web'
                     descricao={
                         <ul>
-                            <li> Responsável pela criação e manutenção de sites em diferentes plataformas </li>
+                            <li> Responsável pela criação e manutenção de sites usando WordPress, Vue.js, React e outras plataformas; </li>
                             <li> Responsável pelo desenvolvimento e implementação de sistemas para soluções internas da empresa;</li>
                             <li> Responsável por coordenar o time de desenvolvimento nos projetos internos seguindo metodologias ágeis; </li>
                             <li> Responsável pela relação entre o time de desenvolvimento e outras áreas da empresa envolvidas nos projetos.</li>
@@ -42,11 +42,11 @@ const Experience = () => {
                         </ul>
                     }
                 />
-                {/* <Companycard
-                    empresa='Compumate'
+                <Companycard
+                    empresa='Compumate Softwares Corporativos'
                     periodo='2019 - 2019'
                     imagem={compumateLogo}
-                    cargo='Suporte / Homologação'
+                    cargo='Software QA Tester'
                     descricao={
                         <ul>
                             <h3> Homologação </h3>
@@ -58,7 +58,7 @@ const Experience = () => {
                             <li> Instalação e manutenção de terminais e servidores. </li>
                         </ul>
                     }
-                /> */}
+                />
                 {/* <Companycard
                     empresa='FbNet'
                     periodo='2018 - 2019'
