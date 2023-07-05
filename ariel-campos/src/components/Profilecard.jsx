@@ -1,8 +1,8 @@
 import React from 'react'
 
 import style from './style/Profilecard.module.css'
-import cv from '../files/ariel-campos.pdf'
-import cven from '../files/CV - EN-min.pdf'
+import cv from '../files/Resume-PT.docx'
+import cven from '../files/Resume-EN.docx'
 
 import { IconContext } from 'react-icons';
 import { AiFillGithub } from 'react-icons/ai'
