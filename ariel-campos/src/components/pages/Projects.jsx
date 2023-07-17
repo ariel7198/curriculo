@@ -46,7 +46,7 @@ const Projects = () => {
                 img={vulcanoImage}
                 title='Vulcano'
                 link='https://vulcano.nacao.digital/'
-                code=''
+                code='https://github.com/ariel7198/project-vulcano'
                 technologies={['html', 'css', 'js', 'git','vue']}
                 description='Plataforma criada em Vue.js para monitoramento de tags de Google Analytics'
             />
